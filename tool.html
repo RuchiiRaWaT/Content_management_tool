@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+         <link rel="Stylesheet" href="css/10cols.css">
+         <link rel="Stylesheet" href="css/11cols.css">
+         <link rel="Stylesheet" href="css/12cols.css">
+         <link rel="Stylesheet" href="css/2cols.css">
+         <link rel="Stylesheet" href="css/3cols.css">
+         <link rel="Stylesheet" href="css/4cols.css">
+         <link rel="Stylesheet" href="css/5cols.css">
+         <link rel="Stylesheet" href="css/6cols.css">
+         <link rel="Stylesheet" href="css/7cols.css">
+         <link rel="Stylesheet" href="css/8cols.css">
+         <link rel="Stylesheet" href="css/9cols.css">
+         <link rel="Stylesheet" href="css/col.css"> 
+    <title>Internship Project</title>
+
+</head>
+<body>
+    <script src="script.js"></script>
+    <div class="h">
+        <h1 class="head"> CONTENT MANAGEMENT TOOL </h1>
+    </div>
+    <div class="h1">
+        <div class="col span_1_of_3 box">
+        <div class="h2">
+        <img src="resource/con.jpg" class="img">
+        </div></div>
+        <div class="col span_1_of_3 box">
+            <h2 class="con"> Description:</h2>
+        <h3 class="con2"> Content Management Tool is a website helps to add some elements that we require.<br>
+        Some of the elment are text,images,videos,files and other elements.<br>
+    Use this website and manage your contents.</h3>
+    </div>
+        <div class="col span_1_of_3 box">
+            <div class="h3">
+                <img src="resource/con2.jpg" class="im">
+            </div>
+        </div>
+    </div>
+   <hr><br> <br>
+    
+      <h2 id="share">Share Some Information</h2>
+    <br> <br>
+  <form onsubmit="manage()" id="fill">
+    <h3>Title : <input type="text" id="Title"></h3> 
+    <h3>Caption : <input type="text" id="caption"></h3>
+    <h3>Post image :<input type="file" id="image"> </h3>
+    <h3>Post video :<input type="file" id="video"> </h3>
+    <p id="re" >  <legend> Description</legend> 
+        <textarea id="des"  rows="10" cols="100" placeholder="descrition">  </textarea></p>
+        <p>
+            <input type="submit" value="Submit" onclick="manage()" >
+          </p>
+  </form>
+ <br>
+ <br>
+        
+</body>
+
+</html>

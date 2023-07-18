@@ -1,0 +1,80 @@
+.h,.head{
+    color: rgb(127, 255, 251);
+    background-color: coral;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+    padding: 15px;
+    word-spacing: 5px;
+}
+
+.h2,.img{
+    height: 50%;
+    width: 90%;
+   margin-top: 10px;
+   margin-left: 20px;
+}
+.con{
+ color: rgb(190, 137, 225);
+ font-weight: bold;
+ font-family: 'Times New Roman', Times, serif;
+}
+.con2{
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.h3,.im{
+    height: 150%;
+    width: 90%;
+    margin-left: 30px;
+   margin-top: 10px;
+}
+
+#share{
+    text-align: center;
+    font-weight: bold;
+    font-size: 60px;
+    text-decoration: dotted;
+    color: #a25454;
+}
+#fill{
+    border: 2px solid grey;
+    padding: 25px;
+    margin: 15px;
+    width: auto;
+    background-color: rgb(245, 245, 245);
+}
+h3{
+    text-align: center;
+}
+input[type=text],
+input[type=email],
+select,input[type=file]
+{width: 50%;
+    padding: 7px;
+    margin-left: 33px;
+    border-radius: 7px;
+    border: 1px solid #ccc ;
+}
+#re{
+    margin-left: 245px;
+    font-weight: bold;
+    font-size: 20px;
+}
+textarea{ margin-left: 120px;
+    height: 100%;
+    border-radius: 5px;
+   }
+   input[type="submit"]{
+    background-color:  lightgreen;
+    color: white;
+    padding: 5px;
+    border: 3px solid rgb(73, 128, 0);
+    border-radius: 3px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 15px;
+}
+input[type="submit"]:hover{
+    background-color:darkgreen;
+}
